@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<import src="../../template/item-template.wxml"/>
+<import src="../../template/wetoast/wetoast.wxml" />
+<template is="wetoast" data="{{...__wetoast__}}" />
+<view class="container">
+<view class="gy1">
+    <image class="user_img" src="{{userInfo.avatarUrl}}"></image>
+    <view class="user_text">欢迎 {{userInfo.nickName}}</view>  
+    <image class="bg_img"  src="/image/myinfo-background.png"></image>
+</view>
+    <view class="index_box_bd">
+        <view class="index_box_tit"><text>罗山县盛丰再生资源回收有限公司</text></view>
+        <view class="index_box_about">
+        <text>专业回收大型中央空调、电梯、商场扶梯、商场配电房，柴油发电机组、工厂机械设备等电力物资、旧电力设备类；回收各种型号：油浸式电力变压器等电器类（电视＼电脑＼冰箱冰柜＼空调等）酒店饭店设备（排烟灶、冷库、不锈钢面案、冰柜、保鲜柜、消毒柜、大批各种后厨设备等。）旧机械设备类：高价回收锅炉，液压机械，造纸厂设备，陶瓷化工机械，木工机械设备，橡塑炼胶机械，纸箱包装机械，干式变压器，箱式变压器，及其配套的低压或高压电屏电柜，电缆，电线。马达，发电机组，电表开关仪器及仓库积压物资杂件等一系列设备…… </text>
+        </view>
+    </view>
+
+    <view class="index_box_bd">
+         <view class="index_box_tit index_box_tit2"><text>联系我们</text></view>
+          <view class="index_box_code">
+               <view class="index_code_v"  data-type="微信">
+                  <image mode="widthFix" src="/image/2017-06-04_144634.png"></image>
+                  <text>微信</text>
+              </view>
+               <view class="index_code_v"  data-type="公众号">
+                  <image mode="widthFix" src="/image/2017-09-27_235920.png"></image>
+                  <text>公众号</text>
+              </view>
+          </view>
+
+    </view>
+
+    </view>
+    <view class="index_box1">
+   
+      <view class="index_box1_left">
+       <button type="default"  bindtap="click"><image src="/image/dizhi.png"></image> 地址导航</button>
+      </view>
+      <view class="index_box1_right">
+       <button type="default"  bindtap="calling"><image src="/image/dianhua.png"></image> 拨打电话</button>
+      </view>
+</view>
+

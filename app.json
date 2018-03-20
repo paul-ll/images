@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/info/info"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "盛丰再生资源回收",
+    "navigationBarBackgroundColor": "#FF8601",
+    "backgroundColor": "#fbf9fe"
+    
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#FF8601",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/ico_1_2.png",
+        "selectedIconPath": "image/ico_1_1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "iconPath": "image/ico_4_2.png",
+        "selectedIconPath": "image/ico_4_1.png",
+        "text": "关于我们"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+
+}

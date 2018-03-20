@@ -1,0 +1,115 @@
+page{margin:0;padding:0;}
+.container {
+  background-color: #F2f2f2;
+}
+
+view.section {
+  /*display: block;*/
+  /*width: 100%;*/
+}
+
+/*轮播*/
+.swiper_box {
+  /*width: 100%;*/
+  height: 180px;
+}
+swiper.swiper {
+  height: 100%;
+}
+.swiper-item {
+    display: block;
+    height: 100%;
+}
+.slide-image {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.index_box_bd{background-color:#fff;margin-bottom:10px;overflow:hiden;}
+.index_box_tit{margin:5px 0;text-align:center;}
+.index_box_tit text{font-size:18px;font-weight:700;line-height: 32px;height:32px;}
+.index_box_imglist{width:98%;padding:0 1%;overflow:hiden;}
+.index_box_imglist .index_anli_v{width:31.333333%;float:left;margin:0 1%;}
+.index_box_imglist .index_anli_v image{display: block;width:100%;}
+.index_box_imglist .index_anli_v text{font-size:28rpx;display: block;height:32px;line-height: 32px;text-align:center;overflow: hidden;color:#8c8c8c;}
+
+.index_box_about{padding:1% 2% 2% 2%;overflow:hiden;}
+.index_box_about text{color:#8c8c8c;font-size:14px;line-height: 28px;}
+
+.index_box_code{width:98%;padding:0 1%;}
+.index_box_code .index_code_v{width:48%;float:left;margin:0 1%;}
+.index_box_code .index_code_v image{display: block;width:100%;}
+.index_box_code .index_code_v text{font-size:28rpx;display: block;height:32px;line-height: 32px;text-align:center;overflow: hidden;color:#8c8c8c;}
+
+.index_box_contact{padding:1% 1% 10px 1%;overflow:hiden;text-align:center;}
+.index_box_contact_bd{padding:10px 5px;margin-bottom:10px;border:1px solid #ccc;overflow:hidden;}
+.index_box_contact .tit{margin-top:10px;line-height:32px;font-size:14px;font-weight:800;}
+.index_box_contact .tit_text{color:#8c8c8c;font-size:12px;min-height:48px;line-height:24px;}
+.index_box_contact .tit_img{margin:10px 0;width:100%;}
+.index_box_contact .tit_img image{width:40px;height:40px;}
+.index_box_phone{float:left;width:47.8%;margin:1%;}
+.index_box_phone .tit_text{line-height: 48px;font-size:16px;}
+
+.index_box_map{float:left;width:47.8%;margin:1%;}
+.footer{line-height: 34px;text-align: center;color:#8c8c8c;}
+
+.gy1{
+  position:relative;
+}
+.bg_img{
+  width: 750rpx;
+  height: 300rpx;
+}
+.user_img{
+  position:absolute;
+  top:30rpx;
+  left:50%;
+  transform: translateX(-50rpx);
+    -webkit-transform: translateX(-50rpx));
+  width:100rpx;
+  height:100rpx;
+  border-radius:50%;
+  border: 1rpx solid #353535;
+}
+.user_text{
+  position:absolute;
+  top:150rpx;
+  left:50%;
+  transform: translateX(-100rpx);
+  width:200rpx;
+  text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    font-size:24rpx;
+    line-height:24rpx;
+    text-align:center;
+}
+
+.other-button-hover {
+  background-color: blue;
+}
+
+.login {
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+
+.index_box1{height:80px;background-color:#fff;}
+.index_box1 .index_box1_auto{float:auto;margin-left:0px;}
+.index_box1 .index_box1_auto button{float:auto;margin-top:18px;width:120px;height:34px;line-height:34px;color:#fff;font-size:16px;background: #FF8601;}
+.index_box1 .index_box1_auto button image{display:inline-block;width:20px;height:20px;margin-right:2px;  vertical-align:middle; }
+.index_box1 .index_box1_left{width:45%;float:left;margin-left:10px;}
+.index_box1 .index_box1_left button{float:left;margin-top:18px;width:120px;height:34px;line-height:34px;color:#fff;font-size:16px;background: #FF8601;}
+.index_box1 .index_box1_left button image{display:inline-block;width:20px;height:20px;margin-right:2px;  vertical-align:middle; }
+.index_box1 .index_box1_right{width:45%;float:right;margin-right:10px;}
+.index_box1 .index_box1_right button{float:right;margin-top:18px;width:120px;height:34px;line-height:34px;color:#fff;font-size:16px;background: #FF8601;}
+.index_box1 .index_box1_right button image{display:inline-block;width:20px;height:20px;margin-right:2px;  vertical-align:middle;}
+.index_box2{background-color:#fff;margin-bottom:10px;}
