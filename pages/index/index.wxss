@@ -27,15 +27,21 @@ swiper.swiper {
   overflow: hidden;
 }
 .index_button{
-  position:static;
+  position:relative;
   background:none;
-  width:360rpx;
-  height:140rpx;
+  border-color: none;
+  width:300rpx;
+  height:34px;
+  line-height:34px;
+  padding-left:0;
+  background:#FF8601;
+  margin-top:18px;
 }
+button.index_button::after{ border: none; }
 .index_box1{height:70px;background-color:#f3f3f3;}
 .index_box1 .index_box1_left{width:360rpx;float:left;}
 .index_box1 .index_box1_left image{display:inline-block;width:20px;height:20px;margin-right:2px;  vertical-align:middle;}
-.index_box1 .index_box1_left text{display:inline-block;font-size:12px;color:#666;height:70px;line-height: 70px; }
+.index_box1 .index_box1_left text{display:inline-block;font-size:30rpx;color:#fff;height:34px;line-height: 34px; }
 .index_box1 .index_box1_right{width:40%;float:right;margin-right:10px;}
 .index_box1 .index_box1_right button{float:right;margin-top:18px;width:120px;height:34px;line-height:34px;color:#fff;font-size:30rpx;background: #FF8601;}
 .index_box1 .index_box1_right button image{display:inline-block;width:20px;height:20px;margin-right:2px;  vertical-align:middle;}
@@ -87,8 +93,8 @@ height: 280rpx;
 .index_anli .index_anli_v image{display: block;width:100%;}
 .index_anli .index_anli_v text{font-size:24rpx;display: block;height:32px;line-height: 32px;text-align:center;overflow: hidden;}
 .index_anli2{height:240px;}
-.index_anli2 .index_anli_v{width:200px;height:230px;margin:5px; display: inline-block;}
-.index_anli2 .index_anli_v image{display: block;width:200px;height:200px;}
+.index_anli2 .index_anli_v{width:300px;margin:5px; display: inline-block;}
+.index_anli2 .index_anli_v image{display: block;width:300px;height:170px;}
 .index_anli2 .index_anli_v text{height:30px;line-height:30px;font-size:24rpx;display: block;text-align:center;overflow: hidden;}
 
 .contus{padding:10px;}

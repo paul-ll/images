@@ -6,9 +6,11 @@
     </view>
     <view class="index_box1">
       <view class="index_box1_left">
-        <button class="index_button" open-type='share'>
-        <image src="/image/weixinico.png"></image><text>微信号：13910563969</text>
-       </button>
+        <form bindsubmit="sumit">
+          <button class="index_button" open-type='share'>
+           <image src="/image/weixinico.png"></image><text>分享给微信好友</text>
+          </button>
+        </form>
       </view>
           <view class="index_box1_right">
        <button bindtap="calling"><image src="/image/kefu.png"></image>联系我们</button>
@@ -17,24 +19,24 @@
     <view class="index_box2">
     <view class="text">
         <view class="line_y"></view>
-        <text>产品展示</text>
+        <text>经营范围</text>
     </view>
     <view class="index_anli">
-        <view class="index_anli_v"  data-type="美味中秋月饼">
+        <view class="index_anli_v"  data-type="废旧设备">
           <image mode="widthFix" src="/image/pro.jpg"></image>
-          <text>美味中秋月饼</text>
+          <text>废旧设备</text>
         </view>
-         <view class="index_anli_v"  data-type="美味中秋月饼">
+         <view class="index_anli_v"  data-type="废旧电力设备">
           <image mode="widthFix" src="/image/pro2.jpg"></image>
-          <text>美味中秋月饼</text>
+          <text>废旧电力设备</text>
         </view>
-         <view class="index_anli_v"  data-type="美味中秋月饼">
+         <view class="index_anli_v"  data-type="废旧金属">
           <image mode="widthFix" src="/image/pro3.jpg"></image>
-          <text>美味中秋月饼</text>
+          <text>废旧金属</text>
         </view>
-         <view class="index_anli_v"  data-type="美味中秋月饼">
+         <view class="index_anli_v"  data-type="废旧电子产品">
           <image mode="widthFix" src="/image/pro4.jpg"></image>
-          <text>美味中秋月饼</text>
+          <text>废旧电子产品</text>
         </view>
         
     </view>
@@ -43,34 +45,34 @@
 <view class="index_box2">
     <view class="text">
         <view class="line_y"></view>
-        <text>生产车间展示{可以左右滑动}</text>
+        <text>主要回收对象展示{可以左右滑动}</text>
     </view>
     
     <view class="index_anli2">
      <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex" >
-        <view class="index_anli_v"  data-type="生产车间">
+        <view class="index_anli_v"  data-type="电力设备">
           <image mode="widthFix" src="/image/cj1.jpg"></image>
-          <text>生产车间</text>
+          <text>电力设备</text>
         </view>
-        <view class="index_anli_v"  data-type="生产车间">
+        <view class="index_anli_v"  data-type="电缆">
           <image mode="widthFix" src="/image/cj2.jpg"></image>
-          <text>生产车间</text>
+          <text>电缆</text>
         </view>
-        <view class="index_anli_v"  data-type="生产车间">
+        <view class="index_anli_v"  data-type="电机">
           <image mode="widthFix" src="/image/cj3.jpg"></image>
-          <text>生产车间</text>
+          <text>电机</text>
         </view>
-        <view class="index_anli_v"  data-type="生产车间">
-          <image mode="widthFix" src="/image/cj2.jpg"></image>
-          <text>生产车间</text>
+        <view class="index_anli_v"  data-type="废旧金属">
+          <image mode="widthFix" src="/image/cj4.jpg"></image>
+          <text>废旧金属</text>
         </view>
-        <view class="index_anli_v"  data-type="生产车间">
-          <image mode="widthFix" src="/image/cj1.jpg"></image>
-          <text>生产车间</text>
+        <view class="index_anli_v"  data-type="废旧金属">
+          <image mode="widthFix" src="/image/cj5.jpg"></image>
+          <text>废旧金属</text>
         </view>
-        <view class="index_anli_v"  data-type="生产车间">
-          <image mode="widthFix" src="/image/cj3.jpg"></image>
-          <text>生产车间</text>
+        <view class="index_anli_v"  data-type="空调">
+          <image mode="widthFix" src="/image/cj6.jpg"></image>
+          <text>空调</text>
         </view>
         </scroll-view>
     </view>

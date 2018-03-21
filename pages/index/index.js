@@ -75,18 +75,18 @@ Page( {
     })
   },
   //http://lbs.qq.com/tool/getpoint/ 坐标拾取器
-  click: function (e) {
-    wx.openLocation({
-      latitude: 22.793340,
-      longitude: 114.479970,
-      scale: 18,
-      name: '惠州市惠阳源记汽车音响改装中心',
-      address: '惠州市惠阳区谈水大埔卢屋山桥头'
-    })
-  },  
+  // click: function (e) {
+  //   wx.openLocation({
+  //     latitude: 22.793340,
+  //     longitude: 114.479970,
+  //     scale: 18,
+  //     name: '惠州市惠阳源记汽车音响改装中心',
+  //     address: '惠州市惠阳区谈水大埔卢屋山桥头'
+  //   })
+  // },  
   onShareAppMessage: function () {
     return {
-      title: '盛丰再生资源回收',
+      title: '经营范围： 废旧设备、废旧金属、废旧电子产品、废旧电力设备回收服务',
       imageUrl: '../../image/1.jpg',
       path: '/pages/index/index',
       success: function (res) {
